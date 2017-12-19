@@ -1,6 +1,0 @@
-Not searching for unused variables given on the command line.
-[31m[1mCMake Error[0m at /home/users/danbing/catkin_workspace/src/acoustic_magic/CMakeLists.txt:1 (cmake_minimum_required):
-  CMake 3.1.0 or higher is required.  You are running version 2.8.12.2
-
-
-[36m--[0m Configuring incomplete, errors occurred!

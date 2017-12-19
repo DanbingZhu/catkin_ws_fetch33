@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_workspace/install
-
-Name: access_local_microphone
-Description: Description of access_local_microphone
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/install/lib 
-Requires: 
