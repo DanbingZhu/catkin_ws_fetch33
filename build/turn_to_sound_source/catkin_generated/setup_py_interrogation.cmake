@@ -1,0 +1,6 @@
+set(turn_to_sound_source_SETUP_PY_VERSION "0.0.0")
+set(turn_to_sound_source_SETUP_PY_SCRIPTS "")
+set(turn_to_sound_source_SETUP_PY_PACKAGES "turn_to_sound_source")
+set(turn_to_sound_source_SETUP_PY_PACKAGE_DIRS "src/turn_to_sound_source")
+set(turn_to_sound_source_SETUP_PY_MODULES "")
+set(turn_to_sound_source_SETUP_PY_MODULE_DIRS "")

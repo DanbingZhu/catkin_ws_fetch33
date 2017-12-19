@@ -1,0 +1,12 @@
+(cl:in-package gcloud_speech_msgs-msg)
+(cl:export '(HINTS-VAL
+          HINTS
+          MAX_ALTERNATIVES-VAL
+          MAX_ALTERNATIVES
+          LISTEN_DURATION_SEC-VAL
+          LISTEN_DURATION_SEC
+          MAX_RECOGNITION_DURATION_SEC-VAL
+          MAX_RECOGNITION_DURATION_SEC
+          SUPPRESS_INTERIM_RESULTS-VAL
+          SUPPRESS_INTERIM_RESULTS
+))

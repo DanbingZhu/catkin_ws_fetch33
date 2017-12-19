@@ -1,0 +1,19 @@
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_lisp
+[  0%] [  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextFeedback
+[  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextActionFeedback
+[  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextAction
+Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextActionGoal
+[  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextActionResult
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_cpp
+[  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_LinearPcm16Le16000Audio
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] [  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_RecognitionHypothesis
+Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextGoal
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _gcloud_speech_msgs_generate_messages_check_deps_SpeechToTextResult
+[ 53%] [ 64%] Built target gcloud_speech_msgs_generate_messages_cpp
+Built target gcloud_speech_msgs_generate_messages_lisp
+[100%] Built target gcloud_speech_msgs_generate_messages_py
+[100%] Built target gcloud_speech_msgs_generate_messages

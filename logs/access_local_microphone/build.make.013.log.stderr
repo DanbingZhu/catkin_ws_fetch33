@@ -1,0 +1,7 @@
+/home/users/danbing/catkin_workspace/src/access_local_microphone/src/acoustic_magic_uart_node.cc:2:25: fatal error: uart_reader.h: No such file or directory
+ #include "uart_reader.h"
+                         ^
+compilation terminated.
+make[2]: *** [CMakeFiles/acoustic_magic_uart_node.dir/src/acoustic_magic_uart_node.cc.o] Error 1
+make[1]: *** [CMakeFiles/acoustic_magic_uart_node.dir/all] Error 2
+make: *** [all] Error 2

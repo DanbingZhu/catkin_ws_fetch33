@@ -1,0 +1,8 @@
+In file included from /home/users/danbing/catkin_workspace/src/gcloud_speech_utils/src/workspace/cogrob/cloud/speech/record_audio.cc:27:0:
+/home/users/danbing/catkin_workspace/src/gcloud_speech_utils/src/workspace/cogrob/cloud/speech/record_audio.h:30:23: fatal error: portaudio.h: No such file or directory
+ #include "portaudio.h"
+                       ^
+compilation terminated.
+make[2]: *** [CMakeFiles/gcloud_speech_utils_record_audio_lib.dir/src/workspace/cogrob/cloud/speech/record_audio.cc.o] Error 1
+make[1]: *** [CMakeFiles/gcloud_speech_utils_record_audio_lib.dir/all] Error 2
+make: *** [all] Error 2

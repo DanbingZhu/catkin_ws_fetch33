@@ -1,0 +1,6 @@
+devel_space: /home/users/danbing/catkin_workspace/devel
+install: false
+install_space: /home/users/danbing/catkin_workspace/install
+profile: default
+source_space: /home/users/danbing/catkin_workspace/src
+workspace: /home/users/danbing/catkin_workspace

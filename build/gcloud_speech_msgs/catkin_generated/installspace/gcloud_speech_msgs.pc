@@ -1,0 +1,8 @@
+prefix=/home/users/danbing/catkin_workspace/install
+
+Name: gcloud_speech_msgs
+Description: Description of gcloud_speech_msgs
+Version: 0.0.4
+Cflags: -I/home/users/danbing/catkin_workspace/install/include
+Libs: -L/home/users/danbing/catkin_workspace/install/lib 
+Requires: message_runtime

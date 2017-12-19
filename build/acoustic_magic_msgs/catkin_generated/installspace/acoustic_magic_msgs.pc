@@ -1,0 +1,8 @@
+prefix=/home/users/danbing/catkin_workspace/install
+
+Name: acoustic_magic_msgs
+Description: Description of acoustic_magic_msgs
+Version: 0.0.0
+Cflags: -I/home/users/danbing/catkin_workspace/install/include
+Libs: -L/home/users/danbing/catkin_workspace/install/lib 
+Requires: message_runtime

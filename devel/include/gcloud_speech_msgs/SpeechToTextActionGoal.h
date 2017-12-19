@@ -1,0 +1,1 @@
+/home/users/danbing/catkin_workspace/devel/.private/gcloud_speech_msgs/include/gcloud_speech_msgs/SpeechToTextActionGoal.h

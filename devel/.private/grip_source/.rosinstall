@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/users/danbing/catkin_workspace/devel/.private/grip_source/setup.sh

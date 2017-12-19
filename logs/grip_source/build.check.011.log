@@ -1,0 +1,15 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/users/danbing/catkin_workspace/devel/.private/grip_source
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/users/danbing/catkin_workspace/devel;/opt/ros/indigo
+[36m--[0m This workspace overlays: /home/users/danbing/catkin_workspace/devel;/opt/ros/indigo
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/users/danbing/catkin_workspace/build/grip_source/test_results
+[36m--[0m Found gtest sources under '/usr/src/gtest': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.6.19
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/users/danbing/catkin_workspace/build/grip_source

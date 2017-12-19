@@ -1,0 +1,1 @@
+/home/users/danbing/catkin_workspace/devel/.private/acoustic_magic_msgs/share/acoustic_magic_msgs/cmake/acoustic_magic_msgs-msg-paths.cmake

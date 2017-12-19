@@ -1,0 +1,1 @@
+/home/users/danbing/catkin_workspace/devel/.private/move_arm_to_source/lib/python2.7/dist-packages/move_arm_to_source/__init__.py

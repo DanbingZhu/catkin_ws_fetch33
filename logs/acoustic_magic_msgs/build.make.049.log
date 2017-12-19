@@ -1,0 +1,8 @@
+[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_py
+[  0%] Built target _acoustic_magic_msgs_generate_messages_check_deps_SoundSourceAngle
+[ 25%] [ 50%] Built target acoustic_magic_msgs_generate_messages_lisp
+Built target acoustic_magic_msgs_generate_messages_cpp
+[100%] Built target acoustic_magic_msgs_generate_messages_py
+[100%] Built target acoustic_magic_msgs_generate_messages

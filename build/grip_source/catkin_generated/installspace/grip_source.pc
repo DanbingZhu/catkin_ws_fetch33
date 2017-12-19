@@ -1,0 +1,8 @@
+prefix=/home/users/danbing/catkin_workspace/install
+
+Name: grip_source
+Description: Description of grip_source
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/users/danbing/catkin_workspace/install/lib 
+Requires: 

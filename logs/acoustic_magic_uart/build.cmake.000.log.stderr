@@ -1,0 +1,9 @@
+[31m[1mCMake Error[0m at /home/users/danbing/catkin_workspace/src/acoustic_magic_uart/CMakeLists.txt:20 (add_executable):
+  Cannot find source file:
+
+    src/workspace/cogrob/hardware/acoustic_magic/uart_reader.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+

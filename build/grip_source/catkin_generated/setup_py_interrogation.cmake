@@ -1,0 +1,6 @@
+set(grip_source_SETUP_PY_VERSION "0.0.0")
+set(grip_source_SETUP_PY_SCRIPTS "")
+set(grip_source_SETUP_PY_PACKAGES "grip_source")
+set(grip_source_SETUP_PY_PACKAGE_DIRS "src/grip_source")
+set(grip_source_SETUP_PY_MODULES "")
+set(grip_source_SETUP_PY_MODULE_DIRS "")

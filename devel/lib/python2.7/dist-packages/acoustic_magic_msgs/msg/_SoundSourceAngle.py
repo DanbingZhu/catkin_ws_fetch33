@@ -1,0 +1,1 @@
+/home/users/danbing/catkin_workspace/devel/.private/acoustic_magic_msgs/lib/python2.7/dist-packages/acoustic_magic_msgs/msg/_SoundSourceAngle.py
