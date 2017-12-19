@@ -1,1 +1,1 @@
-/home/users/danbing/catkin_workspace/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/users/danbing/catkin_ws_fetch33/devel/.private/catkin_tools_prebuild/setup.zsh

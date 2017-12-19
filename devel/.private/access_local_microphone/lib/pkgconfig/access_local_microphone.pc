@@ -1,8 +1,8 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/access_local_microphone
+prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/access_local_microphone
 
 Name: access_local_microphone
 Description: Description of access_local_microphone
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/access_local_microphone/lib 
+Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/access_local_microphone/lib 
 Requires: 

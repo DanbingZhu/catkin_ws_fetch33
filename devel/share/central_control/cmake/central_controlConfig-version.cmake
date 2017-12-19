@@ -1,1 +1,1 @@
-/home/users/danbing/catkin_workspace/devel/.private/central_control/share/central_control/cmake/central_controlConfig-version.cmake
+/home/users/danbing/catkin_ws_fetch33/devel/.private/central_control/share/central_control/cmake/central_controlConfig-version.cmake

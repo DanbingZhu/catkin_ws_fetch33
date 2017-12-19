@@ -1,8 +1,8 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/grip_source
+prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/grip_source
 
 Name: grip_source
 Description: Description of grip_source
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/grip_source/lib 
+Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/grip_source/lib 
 Requires: 

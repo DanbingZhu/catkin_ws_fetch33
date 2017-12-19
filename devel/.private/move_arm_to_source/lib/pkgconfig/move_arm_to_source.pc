@@ -1,8 +1,8 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/move_arm_to_source
+prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source
 
 Name: move_arm_to_source
 Description: Description of move_arm_to_source
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/move_arm_to_source/lib 
+Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/lib 
 Requires: 

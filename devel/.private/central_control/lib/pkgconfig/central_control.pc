@@ -1,8 +1,8 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/central_control
+prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/central_control
 
 Name: central_control
 Description: Description of central_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/central_control/lib 
+Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/central_control/lib 
 Requires: 
