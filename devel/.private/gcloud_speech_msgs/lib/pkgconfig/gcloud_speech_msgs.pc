@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/gcloud_speech_msgs
-
-Name: gcloud_speech_msgs
-Description: Description of gcloud_speech_msgs
-Version: 0.0.4
-Cflags: -I/home/users/danbing/catkin_ws_fetch33/devel/.private/gcloud_speech_msgs/include
-Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/gcloud_speech_msgs/lib 
-Requires: message_runtime

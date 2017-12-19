@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/turn_to_sound_source
-
-Name: turn_to_sound_source
-Description: Description of turn_to_sound_source
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/turn_to_sound_source/lib 
-Requires: 

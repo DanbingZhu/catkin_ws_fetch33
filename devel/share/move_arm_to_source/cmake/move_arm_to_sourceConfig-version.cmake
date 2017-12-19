@@ -1,1 +1,0 @@
-/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/share/move_arm_to_source/cmake/move_arm_to_sourceConfig-version.cmake

@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/gcloud_speech_utils
-
-Name: gcloud_speech_utils
-Description: Description of gcloud_speech_utils
-Version: 0.0.4
-Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/gcloud_speech_utils/lib 
-Requires: 

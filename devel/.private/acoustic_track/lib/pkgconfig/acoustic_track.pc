@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_ws_fetch33/devel/.private/acoustic_track
-
-Name: acoustic_track
-Description: Description of acoustic_track
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/users/danbing/catkin_ws_fetch33/devel/.private/acoustic_track/lib 
-Requires: 

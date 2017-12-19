@@ -1,1 +1,0 @@
-/home/users/danbing/catkin_workspace/devel/.private/move_arm/lib/pkgconfig/move_arm.pc

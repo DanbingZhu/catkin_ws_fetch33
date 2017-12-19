@@ -1,8 +1,0 @@
-prefix=/home/users/danbing/catkin_workspace/devel/.private/acoustic_magic_uart
-
-Name: acoustic_magic_uart
-Description: Description of acoustic_magic_uart
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/users/danbing/catkin_workspace/devel/.private/acoustic_magic_uart/lib 
-Requires: 
