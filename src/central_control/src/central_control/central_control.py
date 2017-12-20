@@ -108,12 +108,13 @@ def main():
 	# sleep 1 second to let the initialization to finish
 
 	# move to initial position
-	cc.GoTo(12.0, 1.0, np.pi)
+	cc.GoTo(12.0, 2.0, np.pi)
 	rospy.sleep(1)
 	# do acoustic track
 	cc.StartTracking()
 	while not cc.IsStable():
 		pass
+	cc.SuspendTracking()
 	# clear history for the next acoustic track
 	cc.ClearHistory()
 	# get position and direction
@@ -121,11 +122,14 @@ def main():
 	cc.GetDirection()
 	
 	# move to the next way point
-	cc.GoTo(12.0, -2.0, np.pi)
+	cc.GoTo(12.0, -1.0, np.pi)
 	rospy.sleep(1)
+	cc.StartTracking()
 	# do another acoustic track
 	while not cc.IsStable():
 		pass
+
+	cc.SuspendTracking()
 	#get another pair of position and direction
 	cc.GetPosition()
 	cc.GetDirection()

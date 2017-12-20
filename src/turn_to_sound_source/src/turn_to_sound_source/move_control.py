@@ -79,7 +79,7 @@ class MoveControl(object):
 		move_goal.target_pose.header.stamp = rospy.Time(0)#rospy.Time.now()
 
 		self.movebase_client_.send_goal(move_goal)
-		self.movebase_client_.wait_for_result()
+		rospy.loginfo(self.movebase_client_.wait_for_result())
 		rospy.loginfo("Finished moving")
 
 	def IsStable(self):
@@ -105,9 +105,9 @@ def main():
 	mc = MoveControl()
 
 	mc.DisableTracking()
-	mc.GoTo(12.0, 1.0, np.pi) # Elevator right
+	mc.GoTo(12.0, 2.0, np.pi) # Elevator right
 	rospy.sleep(5)
-	mc.GoTo(12.0, -2.0, np.pi)
+	mc.GoTo(12.0, -1.0, np.pi)
 
 if __name__ == '__main__':
 	main()
