@@ -70,7 +70,7 @@ class Navigator(object):
 		else:
 			pass
 
-	def IncreaseCounter():
+	def IncreaseCounter(self):
 		self.count = self.count + 1
 
 	def Triangulation(self):

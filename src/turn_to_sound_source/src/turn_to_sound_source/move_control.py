@@ -87,8 +87,8 @@ class MoveControl(object):
 			#rospy.loginfo("Lower than %d counts" % HISTORY_LENGHT)
 			return False
 		else:
-			rospy.loginfo(self.history)
-			rospy.loginfo(np.amax(self.history))
+			#rospy.loginfo(self.history)
+			#rospy.loginfo(np.amax(self.history))
 			if np.std(self.history) < THRESHOLD:
 				return True
 			else:
