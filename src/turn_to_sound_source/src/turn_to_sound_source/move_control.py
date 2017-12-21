@@ -84,7 +84,7 @@ class MoveControl(object):
 
 	def IsStable(self):
 		if self.history_count < HISTORY_LENGHT:
-			rospy.loginfo("Lower than %d counts" % HISTORY_LENGHT)
+			#rospy.loginfo("Lower than %d counts" % HISTORY_LENGHT)
 			return False
 		else:
 			rospy.loginfo(self.history)

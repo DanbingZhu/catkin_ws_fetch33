@@ -77,11 +77,13 @@ class CentralControl(object):
 	def HeadFront(self):
 		self.hc.HeadFront()
 
-	def GetPosition(self):
+	def GetPositionAndDirection(self):
 		self.nav.CurrentPosition()
-
-	def GetDirection(self):
 		self.nav.CurrentDirection()
+		self.nav.IncreaseCounter()
+		
+	def EstimateSourceLocation():
+		self.nav.Triangulation()
 
 	def ShutDownProcedure(self):
 		self.HeadFront()
@@ -118,8 +120,7 @@ def main():
 	# clear history for the next acoustic track
 	cc.ClearHistory()
 	# get position and direction
-	cc.GetPosition()
-	cc.GetDirection()
+	cc.GetPositionAndDirection()
 	
 	# move to the next way point
 	cc.GoTo(12.0, -1.0, np.pi)
@@ -131,16 +132,17 @@ def main():
 
 	cc.SuspendTracking()
 	#get another pair of position and direction
-	cc.GetPosition()
-	cc.GetDirection()
+	cc.GetPositionAndDirection()
 	
 	# do triangulation based on the two <position, direction> pairs
+	#cc.EstimateSourceLocation()
 
-
-	# move the robot close to the estimated sound source
+	# move the robot closer to the estimated sound source
 
 	# do the grab sequence
-
+	# perform tracking again with only rotation to fix error
+	# cc.ClearHistory()
+	# cc.StartTracking()
 	# while not rospy.is_shutdown():
 	# 	if(cc.IsStable()):
 	# 		cc.SuspendTracking()

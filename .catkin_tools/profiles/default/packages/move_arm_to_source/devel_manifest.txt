@@ -1,5 +1,5 @@
 move_arm_to_source
-/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/share/move_arm_to_source/cmake/move_arm_to_sourceConfig-version.cmake /home/users/danbing/catkin_ws_fetch33/devel/share/move_arm_to_source/cmake/move_arm_to_sourceConfig-version.cmake
 /home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/share/move_arm_to_source/cmake/move_arm_to_sourceConfig.cmake /home/users/danbing/catkin_ws_fetch33/devel/share/move_arm_to_source/cmake/move_arm_to_sourceConfig.cmake
-/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/lib/pkgconfig/move_arm_to_source.pc /home/users/danbing/catkin_ws_fetch33/devel/lib/pkgconfig/move_arm_to_source.pc
+/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/share/move_arm_to_source/cmake/move_arm_to_sourceConfig-version.cmake /home/users/danbing/catkin_ws_fetch33/devel/share/move_arm_to_source/cmake/move_arm_to_sourceConfig-version.cmake
 /home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/lib/python2.7/dist-packages/move_arm_to_source/__init__.py /home/users/danbing/catkin_ws_fetch33/devel/lib/python2.7/dist-packages/move_arm_to_source/__init__.py
+/home/users/danbing/catkin_ws_fetch33/devel/.private/move_arm_to_source/lib/pkgconfig/move_arm_to_source.pc /home/users/danbing/catkin_ws_fetch33/devel/lib/pkgconfig/move_arm_to_source.pc

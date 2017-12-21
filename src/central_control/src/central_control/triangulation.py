@@ -13,6 +13,12 @@ class Navigator(object):
 
 	def __init__(self):
 		self.tf = TransformListener()
+		# a 2-by-2 array, used to store (x,y) coordinates of the two triangulation points
+		self.coords = np.zeros((2,2))
+		# a 1-by-2 array, used to store theta angle cooresponding to the two points 
+		self.orients = np.zeros(2)
+		# count, indicate how many (points, orientations) we have obtained, need 2 pairs in order to perform the simpliest triangulation
+		self.count = 0
 
 	'''
 	Method: GetPoint()
@@ -23,6 +29,16 @@ class Navigator(object):
 		self.tf.waitForTransform('base_link', 'map', now, rospy.Duration(4.0))
 		global_coordinate = self.tf.transformPoint('map', point)
 		rospy.loginfo(global_coordinate)
+		if self.count == 0:
+			self.coords[0][0] = global_coordinate.point.x
+			self.coords[0][1] = global_coordinate.point.y
+			rospy.loginfo(self.coords)
+		elif self.count == 1:
+			self.coords[1][0] = global_coordinate.point.x
+			self.coords[1][1] = global_coordinate.point.y
+			rospy.loginfo(self.coords)
+		else:
+			pass
 
 	def CurrentPosition(self):
 		base_link_origin = PointStamped()
@@ -45,10 +61,33 @@ class Navigator(object):
 		(position, quaternion) = self.tf.lookupTransform('base_link', 'map', t)
 		rospy.loginfo(quaternion)
 		rospy.loginfo(transformations.euler_from_quaternion(quaternion)[2]) # theta angle
+		if self.count == 0:
+			self.orients[0] = transformations.euler_from_quaternion(quaternion)[2]
+			rospy.loginfo(self.orients)
+		elif self.count == 1:
+			self.orients[1] = transformations.euler_from_quaternion(quaternion)[2]
+			rospy.loginfo(self.orients)
+		else:
+			pass
 
+	def IncreaseCounter():
+		self.count = self.count + 1
 
 	def Triangulation(self):
-		pass
+		#TODO
+		theta1 = self.orients[0]
+		theta2 = self.orients[1]
+		x1 = self.coords[0][0]
+		y1 = self.coords[0][1]
+		x2 = self.coords[1][0]
+		y2 = self.coords[1][1]
+		estimatedX = (np.tan(-theta1)*x1 - np.tan(-theta2)*x2 + (y2 - y1)) / (np.tan(-theta1) - np.tan(-theta2))
+		estimatedY = ((x1 - x2)*np.tan(-theta1)*np.tan(-theta2) + y2*np.tan(-theta1) - y1*np.tan(-theta2)) / (np.tan(-theta1) - np.tan(-theta2))
+		
+		rospy.loginfo(estimatedX)
+		rospy.loginfo(estimatedY)
+		
+		return (estimatedX, estimatedY)
 
 
 def main():
@@ -59,6 +98,7 @@ def main():
 	while not rospy.is_shutdown():
 		nav.CurrentPosition()
 		nav.CurrentDirection()
+		nav.IncreaseCounter()
 		rospy.sleep(1)
 	
 if __name__ == '__main__':
